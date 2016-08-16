@@ -1,0 +1,110 @@
+﻿<repository
+name="calciiRepository"
+id="d9a6a171-3d86-4dbc-add0-23677917157b"
+rxversion="6.0">
+	<codegen
+	classname="calciiRepository"
+	namespace="calcii"/>
+	<rootfolder
+	name="Root"
+	id="a66239cc-2ed6-47bb-a534-b3cdf03520cd"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Calculator"
+		id="5e95523b-f019-474e-bc51-463954760fa5"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Calculator']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Close"
+			id="d8dbfbc3-7bcd-47a5-a65c-651b6fe991b9"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Calculator']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="9e8f5225-100a-4faf-a629-8a9c37414bef">
+				/form[@title='Calculator']/?/?/button[@accessiblename='Close']
+			</item>
+			<folder
+			name="Calc"
+			id="4d093410-2cd9-4984-8125-8bccaa66acee"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Calculator']/element[@class='CalcFrame']/container[@class='#32770' and @instance='1']"
+			addcaps="container,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Button3"
+				id="b4fd0be4-d633-4b63-af93-c940dd6d11e9"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='121']"
+				addcaps="button,nativewindow"
+				refimgid="4c5982a9-f195-4ffc-be83-5a7d9856833f">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']
+				</item>
+				<item
+				name="Button"
+				id="fff0b833-1daa-4d64-b702-48bcbc097594"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='134']"
+				addcaps="button,nativewindow"
+				refimgid="4f6c95b7-73ea-4fc5-9f66-b70ad7b69949">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='134']
+				</item>
+				<item
+				name="Button2"
+				id="87123c0f-8668-4129-8756-3aab406a9daa"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='135']"
+				addcaps="button,nativewindow"
+				refimgid="f0703a4b-2a32-49cd-b392-23ceed6f80b3">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']
+				</item>
+				<item
+				name="Button1"
+				id="39cac17f-84a6-45fd-8a09-7296676724a8"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Calculator']/element/container[@class='#32770' and @instance='1']/button[@text='' and @controlid='92']"
+				addcaps="button,nativewindow"
+				refimgid="00a75926-785d-4d2e-ae93-0cf6c960738d">
+					/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']
+				</item>
+				<basepath>
+					/form[@title='Calculator']/?/?/container[@instance='1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Calculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKHSURBVDhPdZP7S1NhGMfX39UvpZVZZEFFhBBR
+VCASmd2JjAQlEG/NrJB5Y87bHEkZS2sXFbfp5jYzsaHnss1Nl+5sO2c7m2d+e8/ZZD8ce+DL9/3l
++3me57zn1RxWvWml+YFxhbs/7kfNqA93DV7c0ntwY2AJ1b0uXOtx4MrHOVzSWpiq9ulnxVip6iZ+
+ceyegPWdFAJE9G4GQU4EGxdBkfOfmIDVaBK/iS60fGOKsVKR7jD5wpAmK5E3Hj9aphPQLwVx/u1X
+FGOlkkef8G1ByOWxnz9AUswjkpQQ+JuDJyzCRmXAZyUMulica/qsBtSO+WEkgDQBCLkDxHgJ1N4+
+/JEs5pkMzIE0UqKEfgI4+2ZCDagZ8WHcW5ggns6T/fextpODKyjix0Yak2sCmUpCn4tBRcOYGnBv
+2KsA5C48gSjK5pEiY8uSw4mMhF4ngzMvDWrAHcMyRgmgxxlC9zyL90Rdswy0szQ6bTQ6rBTarZvQ
+ORicfq5XA26TO6fjWbjCadhonigFK52EhUrAspkga3CYWt+Fi03g1JMBNeDmoBsbBFA74sZ8kFfc
+cehsUnFzIA4nk0D5oz41QP7jVnZEssY29O4ohjxRGDwRDBdlXI5ghkyxGEyi7KFODajuW8RCSECb
+LYTdWAytVlZxrb3gQ0shcJ3H4I8KRwOu65ywMAIapxm8mKLw2kyjaYZBy08GHTYGI+4tJDo1WN1O
+Hw2QH8s0xePpFK10rP9CKd5gLrjOUZjAF/0P4OqnOc7KkhXsIbSSNTpmQ9DOhfBhIYweR5h8ly3Y
+GR7eiICTdTquGCvV5W5788V3Fq6q7bvyWCobTah4NarcefnjfqWrLDlcVqdrLqQ0mn9X3WpZlq3T
+HgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,18 @@
+﻿<repository
+name="Repository1"
+id="0faad1ae-e6cc-433b-bfbd-bf4a61cc43b9"
+rxversion="6.0">
+	<codegen
+	classname="Repository1"
+	namespace="calcii"/>
+	<rootfolder
+	name="Root"
+	id="e3993b62-987d-4e4b-9e72-cfa9bcc7462a"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

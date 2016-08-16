@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="calcii"
+      id="37c573ba-4786-453d-b39b-7189bbeb3900"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="calcii"
+      id="37c573ba-4786-453d-b39b-7189bbeb3900"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
