@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{14CB86D1-5076-4A3A-A940-2B0C49588180}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>calcii</RootNamespace>
+    <AssemblyName>calcii</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>6f01b77d-58a1-4f75-9ee4-246b17bec7fc</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\..\..\..\..\Downloads\Ranorex.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>73578b92-fcb2-4fe7-96ce-851f5b5c790e</id>
+    </Compile>
+    <Compile Include="calciiRepository.cs">
+      <BoundTo>6f01b77d-58a1-4f75-9ee4-246b17bec7fc</BoundTo>
+      <DependentUpon>calciiRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3b6043df-cddb-45c9-8b40-24cb0059edee</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>9d8aa2f4-d0ab-46c6-b2be-a6d9a9a7a96b</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>462ecb5a-2d4c-480b-9700-bb5077bd6acf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cff475a9-e666-4b02-8ab2-e7395195b972</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>462ecb5a-2d4c-480b-9700-bb5077bd6acf</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f63f5a51-4ee2-4ddb-b746-fca1476ae6c3</id>
+    </Compile>
+    <Compile Include="ReportToPDF_6.X.cs">
+      <id>96ff22e0-80d9-4b28-99f8-ac691aecc95c</id>
+    </Compile>
+    <Compile Include="Repository1.cs">
+      <BoundTo>FC94214B-4225-4EF6-8E77-E1B701F83D93</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e3cbbf66-cf70-4bbd-b776-5e87722d1967</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>f4414948-6606-4a6a-84aa-28e872ed73fd</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>44161d37-66eb-4638-ab06-2cf324124f58</id>
+    </None>
+    <None Include="calciiRepository.rximg">
+      <BoundTo>6f01b77d-58a1-4f75-9ee4-246b17bec7fc</BoundTo>
+      <DependentUpon>calciiRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b9c38002-b44b-49c5-a075-6a0d8b395f83</id>
+    </None>
+    <None Include="calciiRepository.rxrep">
+      <id>6f01b77d-58a1-4f75-9ee4-246b17bec7fc</id>
+      <repoid>d9a6a171-3d86-4dbc-add0-23677917157b</repoid>
+      <reporootid>a66239cc-2ed6-47bb-a534-b3cdf03520cd</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>6f01b77d-58a1-4f75-9ee4-246b17bec7fc</BoundTo>
+      <id>462ecb5a-2d4c-480b-9700-bb5077bd6acf</id>
+      <recordtableid>40c3f038-be49-4f9a-80b1-676a44e0df82</recordtableid>
+    </None>
+    <None Include="Repository1.rximg">
+      <BoundTo>FC94214B-4225-4EF6-8E77-E1B701F83D93</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>699b517a-3ef3-4122-b091-e29afd4141fa</id>
+    </None>
+    <None Include="Repository1.rxrep">
+      <id>FC94214B-4225-4EF6-8E77-E1B701F83D93</id>
+      <repoid>0faad1ae-e6cc-433b-bfbd-bf4a61cc43b9</repoid>
+      <reporootid>e3993b62-987d-4e4b-9e72-cfa9bcc7462a</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="calcii.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0d5d7fa4-ff6a-4f50-b329-4e94f057d761</id>
+    </Content>
+    <Content Include="calcii.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>41eb9f87-e493-4bfb-90d3-b6e750354ad0</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

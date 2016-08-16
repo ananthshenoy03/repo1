@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cc2dd0c90fb3e33"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="user"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="21-07-2016 13:10:11"
+		timestampiso="2016-07-21T07:40:11"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.403"
+			timeRelativeToTestModuleStartTime="00:00.404"
+			timeWallClock="13:10:11"
+			time="00:00.403"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.463"
+			timeRelativeToTestModuleStartTime="00:00.464"
+			timeWallClock="13:10:11"
+			time="00:00.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button' at 23;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='134']"
+				fullname="calciiRepository.Calculator.Calc.Button"
+				id="fff0b8331daa4d64b70248bcbc097594"
+				timeout="90000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.717"
+			timeRelativeToTestModuleStartTime="00:01.718"
+			timeWallClock="13:10:12"
+			time="00:01.717"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button1' at 18;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+				fullname="calciiRepository.Calculator.Calc.Button1"
+				id="39cac17f84a645fd8a097296676724a8"
+				timeout="90000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.417"
+			timeRelativeToTestModuleStartTime="00:02.418"
+			timeWallClock="13:10:13"
+			time="00:02.417"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button2' at 22;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']"
+				fullname="calciiRepository.Calculator.Calc.Button2"
+				id="87123c0f8668412987563aab406a9daa"
+				timeout="90000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.096"
+			timeRelativeToTestModuleStartTime="00:03.097"
+			timeWallClock="13:10:14"
+			time="00:03.096"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Calc.Button3' at 14;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+				fullname="calciiRepository.Calculator.Calc.Button3"
+				id="b4fd0be4d6334b63af93c940dd6d11e9"
+				timeout="90000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.773"
+			timeRelativeToTestModuleStartTime="00:03.774"
+			timeWallClock="13:10:14"
+			time="00:03.773"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Close' at 26;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Calculator']/?/?/button[@accessiblename='Close']"
+				fullname="calciiRepository.Calculator.Close"
+				id="d8dbfbc37bcd47a5a65c651b6fe991b9"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

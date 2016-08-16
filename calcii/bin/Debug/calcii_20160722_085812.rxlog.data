@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c968d5bc145eb21"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="user"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="22-07-2016 08:58:12"
+		timestampiso="2016-07-22T03:28:12"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="4.11s"
+			durationms="4107"
+			type="test suite"
+			rid="225d34bc7f478f51"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="calcii"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="4.1s"
+				durationms="4103"
+				type="test case"
+				rid="1eda82c810849532"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="3db88b97-278d-41c5-a9d0-17fca0b12536"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="4.1s"
+					durationms="4097"
+					type="test module"
+					rid="2515f2a0cda815ee"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="40c3f038-be49-4f9a-80b1-676a44e0df82"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.234"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="08:58:13"
+						time="00:00.234"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Windows\System32\calc.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.324"
+						timeRelativeToTestModuleStartTime="00:00.093"
+						timeWallClock="08:58:13"
+						time="00:00.324"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button' at 23;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='134']"
+							fullname="calciiRepository.Calculator.Calc.Button"
+							id="fff0b8331daa4d64b70248bcbc097594"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.512"
+						timeRelativeToTestModuleStartTime="00:01.280"
+						timeWallClock="08:58:14"
+						time="00:01.512"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button1' at 18;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='92']"
+							fullname="calciiRepository.Calculator.Calc.Button1"
+							id="39cac17f84a645fd8a097296676724a8"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.217"
+						timeRelativeToTestModuleStartTime="00:01.986"
+						timeWallClock="08:58:15"
+						time="00:02.217"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button2' at 22;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='135']"
+							fullname="calciiRepository.Calculator.Calc.Button2"
+							id="87123c0f8668412987563aab406a9daa"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.927"
+						timeRelativeToTestModuleStartTime="00:02.695"
+						timeWallClock="08:58:15"
+						time="00:02.927"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Calc.Button3' at 14;20.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/container[@instance='1']/button[@controlid='121']"
+							fullname="calciiRepository.Calculator.Calc.Button3"
+							id="b4fd0be4d6334b63af93c940dd6d11e9"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.621"
+						timeRelativeToTestModuleStartTime="00:03.390"
+						timeWallClock="08:58:16"
+						time="00:03.621"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Calculator.Close' at 26;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Calculator']/?/?/button[@accessiblename='Close']"
+							fullname="calciiRepository.Calculator.Close"
+							id="d8dbfbc37bcd47a5a65c651b6fe991b9"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

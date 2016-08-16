@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\calcii.rxtmg
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\calcii.rxtst
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\calcii.exe.config
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\calcii.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\calcii.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\obj\x86\Debug\calcii.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\obj\x86\Debug\calcii.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\obj\x86\Debug\calcii.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\calcii\calcii\bin\Debug\Ranorex.PDF.dll
