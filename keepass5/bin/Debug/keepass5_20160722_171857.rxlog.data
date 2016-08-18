@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ba8894084748000"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="user"
+		host="PC2"
+		rxversion="6.0.1.0"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		language="en-GB"
+		screenresolution="1366x768"
+		timestamp="22-07-2016 17:18:57"
+		timestampiso="2016-07-22T11:48:57"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="36.69s"
+			durationms="36686"
+			type="test suite"
+			rid="10f0568a4f075559"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="keepass5"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="36.68s"
+				durationms="36680"
+				type="test case"
+				rid="1304c902cc84e1f3"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="6072a354-efff-4590-b7f3-22776a563ebc"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="36.67s"
+					durationms="36671"
+					type="test module"
+					rid="3134cc87d37cd7ea"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="cdf15c7e-b7e5-4e29-a8c4-d6395a69720b"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.270"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="17:18:58"
+						time="00:00.270"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'F:\KeePass Password Safe 2\KeePass.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.350"
+						timeRelativeToTestModuleStartTime="00:00.086"
+						timeWallClock="17:18:58"
+						time="00:00.350"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeyPromptForm.MCbPassword' at 7;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/checkbox[@controlname='m_cbPassword']"
+							fullname="keepass5Repository.KeyPromptForm.MCbPassword"
+							id="4c70e6af270e44758e5141bb65cc209b"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.943"
+						timeRelativeToTestModuleStartTime="00:02.678"
+						timeWallClock="17:19:00"
+						time="00:02.943"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeyPromptForm.Text' at 26;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+							fullname="keepass5Repository.KeyPromptForm.Text"
+							id="2cd7ac20df91408d8f375fd8f3cf740c"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.972"
+						timeRelativeToTestModuleStartTime="00:03.708"
+						timeWallClock="17:19:01"
+						time="00:03.972"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'rx' with focus on 'KeyPromptForm.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+							fullname="keepass5Repository.KeyPromptForm.Text"
+							id="2cd7ac20df91408d8f375fd8f3cf740c"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.655"
+						timeRelativeToTestModuleStartTime="00:04.391"
+						timeWallClock="17:19:02"
+						time="00:04.655"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeyPromptForm.MBtnOK' at 43;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+							fullname="keepass5Repository.KeyPromptForm.MBtnOK"
+							id="6ea944bb5d0d4782b4794203a8fa69f3"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.491"
+						timeRelativeToTestModuleStartTime="00:05.227"
+						timeWallClock="17:19:03"
+						time="00:05.491"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.Edit' at 12;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']"
+							fullname="keepass5Repository.MainForm.Edit"
+							id="569a0baa84444c379139da96403f39cc"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.039"
+						timeRelativeToTestModuleStartTime="00:06.775"
+						timeWallClock="17:19:04"
+						time="00:07.039"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.AddEntry' at 45;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']"
+							fullname="keepass5Repository.KeePass.AddEntry"
+							id="ebdbcfbb84204e57b4d28d7451d070cb"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.893"
+						timeRelativeToTestModuleStartTime="00:07.628"
+						timeWallClock="17:19:05"
+						time="00:07.893"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.Text' at 50;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							fullname="keepass5Repository.PwEntryForm.Text"
+							id="e5502b41071b42c5b0ee8348e5f20da0"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.359"
+						timeRelativeToTestModuleStartTime="00:09.095"
+						timeWallClock="17:19:07"
+						time="00:09.359"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'user{Space}login' with focus on 'PwEntryForm.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							fullname="keepass5Repository.PwEntryForm.Text"
+							id="e5502b41071b42c5b0ee8348e5f20da0"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.872"
+						timeRelativeToTestModuleStartTime="00:10.608"
+						timeWallClock="17:19:08"
+						time="00:10.872"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry.UserName' at 42;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='User name:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.UserName"
+							id="48c4e09883b0425085ae3d8cc3cebc72"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.253"
+						timeRelativeToTestModuleStartTime="00:11.989"
+						timeWallClock="17:19:10"
+						time="00:12.253"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'qwert' with focus on 'PwEntryForm.MTabEntry.UserName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='User name:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.UserName"
+							id="48c4e09883b0425085ae3d8cc3cebc72"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.603"
+						timeRelativeToTestModuleStartTime="00:13.339"
+						timeWallClock="17:19:11"
+						time="00:13.603"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry.Password' at 157;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Password"
+							id="a19a6424660a41ceb47bc6c9ad2b92d7"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.050"
+						timeRelativeToTestModuleStartTime="00:14.786"
+						timeWallClock="17:19:12"
+						time="00:15.050"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'PwEntryForm.MTabEntry.Password' at 157;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Password"
+							id="a19a6424660a41ceb47bc6c9ad2b92d7"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="130"
+							itemindex="12"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.482"
+						timeRelativeToTestModuleStartTime="00:16.218"
+						timeWallClock="17:19:14"
+						time="00:16.482"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.SelectAll' at 73;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/?/?/menuitem[@accessiblename='Select All']"
+							fullname="keepass5Repository.KeePass.SelectAll"
+							id="003e473725de402b96d83568421b06fa"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="134"
+							itemindex="13"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.299"
+						timeRelativeToTestModuleStartTime="00:17.035"
+						timeWallClock="17:19:15"
+						time="00:17.299"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'asdfg' with focus on 'PwEntryForm.MTabEntry.Password'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Password"
+							id="a19a6424660a41ceb47bc6c9ad2b92d7"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="138"
+							itemindex="14"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.662"
+						timeRelativeToTestModuleStartTime="00:18.398"
+						timeWallClock="17:19:16"
+						time="00:18.662"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry.Repeat' at 167;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Repeat:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Repeat"
+							id="ab58fd402edb43299c68d58d7e517925"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="142"
+							itemindex="15"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.077"
+						timeRelativeToTestModuleStartTime="00:19.813"
+						timeWallClock="17:19:17"
+						time="00:20.077"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'PwEntryForm.MTabEntry.Repeat' at 166;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Repeat:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Repeat"
+							id="ab58fd402edb43299c68d58d7e517925"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="146"
+							itemindex="16"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.448"
+						timeRelativeToTestModuleStartTime="00:21.184"
+						timeWallClock="17:19:19"
+						time="00:21.448"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.SelectAll' at 55;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/?/?/menuitem[@accessiblename='Select All']"
+							fullname="keepass5Repository.KeePass.SelectAll"
+							id="003e473725de402b96d83568421b06fa"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="150"
+							itemindex="17"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.262"
+						timeRelativeToTestModuleStartTime="00:21.998"
+						timeWallClock="17:19:20"
+						time="00:22.262"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'asdfg' with focus on 'PwEntryForm.MTabEntry.Repeat'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Repeat:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Repeat"
+							id="ab58fd402edb43299c68d58d7e517925"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="154"
+							itemindex="18"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.645"
+						timeRelativeToTestModuleStartTime="00:23.381"
+						timeWallClock="17:19:21"
+						time="00:23.645"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry.URL' at 35;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='URL:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.URL"
+							id="52b3b9f6751342d1884062ecfc2f1c98"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="158"
+							itemindex="19"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.024"
+						timeRelativeToTestModuleStartTime="00:24.760"
+						timeWallClock="17:19:22"
+						time="00:25.024"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'www.' with focus on 'PwEntryForm.MTabEntry.URL'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='URL:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.URL"
+							id="52b3b9f6751342d1884062ecfc2f1c98"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="162"
+							itemindex="20"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.247"
+						timeRelativeToTestModuleStartTime="00:25.982"
+						timeWallClock="17:19:24"
+						time="00:26.247"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'plmn.com' with focus on 'PwEntryForm.MTabEntry.URL'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='URL:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.URL"
+							id="52b3b9f6751342d1884062ecfc2f1c98"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="166"
+							itemindex="21"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.928"
+						timeRelativeToTestModuleStartTime="00:27.664"
+						timeWallClock="17:19:25"
+						time="00:27.928"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry.Notes' at 50;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Notes:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Notes"
+							id="f75c326affed4cc08d43263f1934758b"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="170"
+							itemindex="22"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.353"
+						timeRelativeToTestModuleStartTime="00:29.089"
+						timeWallClock="17:19:27"
+						time="00:29.353"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'hello...' with focus on 'PwEntryForm.MTabEntry.Notes'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Notes:']"
+							fullname="keepass5Repository.PwEntryForm.MTabEntry.Notes"
+							id="f75c326affed4cc08d43263f1934758b"
+							timeout="90000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="174"
+							itemindex="23"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.002"
+						timeRelativeToTestModuleStartTime="00:30.738"
+						timeWallClock="17:19:28"
+						time="00:31.002"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MBtnStandardExpires' at 11;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/button[@controlname='m_btnStandardExpires']"
+							fullname="keepass5Repository.PwEntryForm.MBtnStandardExpires"
+							id="05beab1996014ab1987d00063615aee0"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="178"
+							itemindex="24"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.037"
+						timeRelativeToTestModuleStartTime="00:31.773"
+						timeWallClock="17:19:29"
+						time="00:32.037"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.MenuItem2Weeks' at 34;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='2 Weeks']"
+							fullname="keepass5Repository.KeePass.MenuItem2Weeks"
+							id="38aff0047cae4146a1986b158fc351bf"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="182"
+							itemindex="25"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.916"
+						timeRelativeToTestModuleStartTime="00:32.652"
+						timeWallClock="17:19:30"
+						time="00:32.916"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MBtnOK' at 47;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/button[@controlname='m_btnOK']"
+							fullname="keepass5Repository.PwEntryForm.MBtnOK"
+							id="2bee6f7e9bbf438aa9902d5efdd107b9"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="186"
+							itemindex="26"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.702"
+						timeRelativeToTestModuleStartTime="00:33.437"
+						timeWallClock="17:19:31"
+						time="00:33.702"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.File' at 23;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='File']"
+							fullname="keepass5Repository.MainForm.File"
+							id="49008708efc44ca1b869b932b45ed64b"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="190"
+							itemindex="27"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:34.884"
+						timeRelativeToTestModuleStartTime="00:34.620"
+						timeWallClock="17:19:32"
+						time="00:34.884"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.Save' at 51;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Save']"
+							fullname="keepass5Repository.KeePass.Save"
+							id="bff071271827449680a8201e805e6752"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="194"
+							itemindex="28"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.749"
+						timeRelativeToTestModuleStartTime="00:35.485"
+						timeWallClock="17:19:33"
+						time="00:35.749"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.Close' at 20;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+							fullname="keepass5Repository.MainForm.Close"
+							id="f835e90477204c5bafa3952d68dddf35"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\Recording1.cs"
+							codeline="198"
+							itemindex="29"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

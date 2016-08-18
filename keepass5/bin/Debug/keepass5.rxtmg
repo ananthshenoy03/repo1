@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="keepass5"
+      id="5a69d4b4-08d3-4726-a42a-a1cc36ee3128"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="keepass5"
+      id="5a69d4b4-08d3-4726-a42a-a1cc36ee3128"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

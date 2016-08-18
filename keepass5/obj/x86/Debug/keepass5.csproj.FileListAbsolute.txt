@@ -1,0 +1,8 @@
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\bin\Debug\keepass5.rxtmg
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\bin\Debug\keepass5.rxtst
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\bin\Debug\keepass5.exe.config
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\bin\Debug\keepass5.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\bin\Debug\keepass5.pdb
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\obj\x86\Debug\keepass5.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\obj\x86\Debug\keepass5.exe
+C:\Users\user\Documents\Ranorex\RanorexStudio Projects\keepass5\keepass5\obj\x86\Debug\keepass5.pdb
